@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E18A2F62725CAF1003ABF4F /* AlarmCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E18A2F52725CAF1003ABF4F /* AlarmCreator.swift */; };
 		5ED2CDD3270B4CE3008CB11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2CDD2270B4CE3008CB11E /* AppDelegate.swift */; };
 		5ED2CDD5270B4CE3008CB11E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2CDD4270B4CE3008CB11E /* SceneDelegate.swift */; };
-		5ED2CDD7270B4CE3008CB11E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2CDD6270B4CE3008CB11E /* ViewController.swift */; };
-		5ED2CDDA270B4CE3008CB11E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED2CDD8270B4CE3008CB11E /* Main.storyboard */; };
+		5ED2CDD7270B4CE3008CB11E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED2CDD6270B4CE3008CB11E /* CollectionViewController.swift */; };
 		5ED2CDDC270B4CE8008CB11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED2CDDB270B4CE8008CB11E /* Assets.xcassets */; };
 		5ED2CDDF270B4CE8008CB11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED2CDDD270B4CE8008CB11E /* LaunchScreen.storyboard */; };
+		5EDA03942720853300AF825C /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA03932720853300AF825C /* AlarmView.swift */; };
+		5EDA039627208D2F00AF825C /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA039527208D2F00AF825C /* StackViewController.swift */; };
+		5EDA039827208DF500AF825C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA039727208DF500AF825C /* TableViewController.swift */; };
+		5EDA039A27219E0B00AF825C /* UIViewPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA039927219E0B00AF825C /* UIViewPin.swift */; };
+		5EDA039C2721A60B00AF825C /* EyeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA039B2721A60B00AF825C /* EyeCell.swift */; };
+		5EF51C9F2722051E002D4939 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF51C9E2722051E002D4939 /* AlarmModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E18A2F52725CAF1003ABF4F /* AlarmCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmCreator.swift; sourceTree = "<group>"; };
 		5ED2CDCF270B4CE3008CB11E /* kepetrovaPW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kepetrovaPW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED2CDD2270B4CE3008CB11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ED2CDD4270B4CE3008CB11E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5ED2CDD6270B4CE3008CB11E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5ED2CDD9270B4CE3008CB11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ED2CDD6270B4CE3008CB11E /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		5ED2CDDB270B4CE8008CB11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ED2CDDE270B4CE8008CB11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ED2CDE0270B4CE8008CB11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDA03932720853300AF825C /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		5EDA039527208D2F00AF825C /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		5EDA039727208DF500AF825C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5EDA039927219E0B00AF825C /* UIViewPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewPin.swift; path = ../../../../Downloads/UIViewPin.swift; sourceTree = "<group>"; };
+		5EDA039B2721A60B00AF825C /* EyeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCell.swift; sourceTree = "<group>"; };
+		5EF51C9E2722051E002D4939 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,29 @@
 		5ED2CDD1270B4CE3008CB11E /* kepetrovaPW3 */ = {
 			isa = PBXGroup;
 			children = (
+				5EDA039227207FC700AF825C /* View */,
 				5ED2CDD2270B4CE3008CB11E /* AppDelegate.swift */,
+				5EDA039527208D2F00AF825C /* StackViewController.swift */,
+				5EDA039927219E0B00AF825C /* UIViewPin.swift */,
+				5EDA039727208DF500AF825C /* TableViewController.swift */,
+				5EF51C9E2722051E002D4939 /* AlarmModel.swift */,
 				5ED2CDD4270B4CE3008CB11E /* SceneDelegate.swift */,
-				5ED2CDD6270B4CE3008CB11E /* ViewController.swift */,
-				5ED2CDD8270B4CE3008CB11E /* Main.storyboard */,
+				5E18A2F52725CAF1003ABF4F /* AlarmCreator.swift */,
+				5ED2CDD6270B4CE3008CB11E /* CollectionViewController.swift */,
 				5ED2CDDB270B4CE8008CB11E /* Assets.xcassets */,
 				5ED2CDDD270B4CE8008CB11E /* LaunchScreen.storyboard */,
 				5ED2CDE0270B4CE8008CB11E /* Info.plist */,
 			);
 			path = kepetrovaPW3;
+			sourceTree = "<group>";
+		};
+		5EDA039227207FC700AF825C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5EDA03932720853300AF825C /* AlarmView.swift */,
+				5EDA039B2721A60B00AF825C /* EyeCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +152,6 @@
 			files = (
 				5ED2CDDF270B4CE8008CB11E /* LaunchScreen.storyboard in Resources */,
 				5ED2CDDC270B4CE8008CB11E /* Assets.xcassets in Resources */,
-				5ED2CDDA270B4CE3008CB11E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +162,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ED2CDD7270B4CE3008CB11E /* ViewController.swift in Sources */,
+				5ED2CDD7270B4CE3008CB11E /* CollectionViewController.swift in Sources */,
+				5EDA039827208DF500AF825C /* TableViewController.swift in Sources */,
 				5ED2CDD3270B4CE3008CB11E /* AppDelegate.swift in Sources */,
+				5EDA039C2721A60B00AF825C /* EyeCell.swift in Sources */,
+				5EDA03942720853300AF825C /* AlarmView.swift in Sources */,
+				5EF51C9F2722051E002D4939 /* AlarmModel.swift in Sources */,
+				5E18A2F62725CAF1003ABF4F /* AlarmCreator.swift in Sources */,
+				5EDA039A27219E0B00AF825C /* UIViewPin.swift in Sources */,
+				5EDA039627208D2F00AF825C /* StackViewController.swift in Sources */,
 				5ED2CDD5270B4CE3008CB11E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +178,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5ED2CDD8270B4CE3008CB11E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5ED2CDD9270B4CE3008CB11E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5ED2CDDD270B4CE8008CB11E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
